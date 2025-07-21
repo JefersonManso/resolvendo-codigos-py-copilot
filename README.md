@@ -1,85 +1,187 @@
-# Resolvendo Códigos em Python com o Github Copilot
+# 🧠 Resolvendo Códigos em Python com o GitHub Copilot
 
-Olá!! Aqui veremos algumas resoluções de códigos em python utilizando o Github Copilot.
+Olá! 👋 Neste repositório, você encontrará resoluções de problemas simples usando Python com o apoio do **GitHub Copilot** e/ou **ChatGPT**.  
+O foco é aplicar conceitos fundamentais de programação e explorar o uso de IA para sugerir e melhorar código.
 
-### Atenção ⚠️ 
-
-Não tem acesso ao Github Copilot?! Não tem problema!! 
-Que tal utilizar o [ChatGPT](https://chat.openai.com/) como seu copiloto de estudos ??
+---
 
 ## 1 - Concatenando Dados 🐾
 
-Descrição:
-Vamos receber dois dados diferentes do usuário e concatena-los em uma única string?! 
+### 📌 Descrição
 
-O que aprenderemos?
+Vamos receber dois dados diferentes do usuário e concatená-los em uma única string.
 
-* Manipulação de Strings (string)
-* Concatenação
-* Entrada de dados
-* Utilização eficiente do Github Copilot
+### 💬 Prompt no ChatGPT
 
-<br>
+![Prompt do ChatGPT](imagens/prompt-entrada.png)
+
+### 🧠 Código Gerado
+
+![Código Gerado pelo GPT](imagens/prompt-saida.png)
+
+### 🖥️ Terminal com Código Funcionando
+
+![Terminal Executando Código](imagens/resultado.png)
+
+### 📚 O que aprenderemos?
+
+* Manipulação de Strings
+* Concatenação com `+`
+* Entrada de dados com `input()`
+* Sugestões do GitHub Copilot
+
+---
 
 ## 2 - Repetindo Textos ✏️
 
-Descrição:
-Agora vamos solicitar uma string e um número inteiro como entrada. Depois teremos que retornar a string repetida o número de vezes informado. 
+### 📌 Descrição
 
-O que aprenderemos?
+Solicite uma **string** e um **número inteiro** como entrada. Depois, retorne a string repetida o número de vezes informado, separada por **traços** (`-`).
 
-* Manipulação de Strings (string)
-* Números Inteiros (int)
-* Múltiplas repetições
+### 💬 Prompt no ChatGPT
+
+![Prompt do ChatGPT](imagens/prompt-entrada1.png)
+
+### 🧠 Código Gerado
+
+![Código Gerado pelo GPT](imagens/prompt-saida1.png)
+
+### 🖥️ Terminal com Código Funcionando
+
+![Terminal Executando Código](imagens/resultado1.png)
+
+### 📚 O que aprenderemos?
+
+* Manipulação de Strings (`str`)
+* Números Inteiros (`int`)
+* Repetição com `join()`
 * Entrada de dados
-* Aproveitar as sugestões do Github Copilot
+* Sugestões do GitHub Copilot
 
-<br>
+---
 
 ## 3 - Operações Matemáticas Simples 📐
 
-Descrição:
-Vamos solicitar como entrada dois números e depois vamos realizar uma operação simples entre eles.
+### 📌 Descrição
 
-O que aprenderemos?
+Solicite dois números e a operação desejada (+, -, *, /), e realize o cálculo de acordo com a escolha.
 
-* Operações Matemáticas Básicas
+### 💬 Prompt no ChatGPT
+
+![Prompt do ChatGPT](imagens/prompt-entrada2.png)
+
+### 🧠 Código Gerado
+
+![Código Gerado pelo GPT](imagens/prompt-saida2.png)
+
+### 🖥️ Terminal com Código Funcionando
+
+![Terminal Executando Código](imagens/resultado2.png)
+
+### 📚 O que aprenderemos?
+
+* Operações aritméticas básicas
 * Entrada de dados
-* Utilização eficiente do Github Copilot
+* Uso de condicionais (`if/elif/else`)
+* Boas práticas com validação de entrada
 
-<br>
+---
 
 ## 4 - Verificando Números Pares e Ímpares 🧮
 
-Descrição: Como entrada, receba um número inteiro e verifique se ele é par ou ímpar. 
-Uma dica é: Utilize condicionais para realizar a verificação e, se possível, faça uso do Github Copilot(ou outra IA) para otimizar a estrutura do código.
+### 📌 Descrição
 
-O que aprenderemos?
-* Utilização de condicionais em Python (if, else) para realizar verificações.
-* Introdução ao conceito de operador de módulo (%) para verificar se um número é par ou ímpar.
-* Exploração do uso de uma ferramenta de IA, como o Github Copilot, para otimizar a estrutura do código.
+Receba um número inteiro e verifique se ele é **par** ou **ímpar** usando condicionais.
 
+### 💬 Prompt no ChatGPT
 
-<br>
+![Prompt do ChatGPT](imagens/prompt-entrada3.png)
+
+### 🧠 Código Gerado
+
+![Código Gerado pelo GPT](imagens/prompt-saida3.png)
+
+### 🖥️ Terminal com Código Funcionando
+
+![Terminal Executando Código](imagens/resultado3.png)
+
+### 📚 O que aprenderemos?
+
+* Condicionais (`if/else`)
+* Operador de módulo `%`
+* Entrada e verificação de dados
+
+---
 
 ## 5 - Calculando Média de Notas 📚
 
-Descrição: Agora vamos calcular a média de três notas fornecidas na entrada do usuário. 
-Uma dica é: Utilize operadores aritméticos para realizar o cálculo da média.
+### 📌 Descrição
 
-O que aprenderemos?
-* Uso de variáveis para armazenar dados fornecidos pelo usuário.
-* Aplicação de operadores aritméticos (+, /) para calcular a média de um conjunto de valores.
-* Prática na solicitação e manipulação de entrada do usuário.
+Calcule a média de **três notas** fornecidas pelo usuário, usando operadores aritméticos.
 
-<br>
+### 💬 Prompt no ChatGPT
+
+![Prompt do ChatGPT](imagens/prompt-entrada4.png)
+
+### 🧠 Código Gerado
+
+![Código Gerado pelo GPT](imagens/prompt-saida4.png)
+
+### 🖥️ Terminal com Código Funcionando
+
+![Terminal Executando Código](imagens/resultado4.png)
+
+### 📚 O que aprenderemos?
+
+* Leitura de múltiplos valores com `input()`
+* Uso de variáveis e média aritmética
+* Aplicação de operadores: `+` e `/`
+
+---
 
 ## 6 - Verificando Palíndromos 🔄
 
-Descrição: Vamos testar se uma palavra é um palíndromo?! 
-Uma dica é: Utilize conceitos de manipulação de strings para inverter a palavra e comparar com a original.
+### 📌 Descrição
 
-O que aprenderemos?
-* Manipulação de strings em Python, especialmente invertendo uma string.
-* Compreensão de como comparar a string original com sua versão invertida para determinar se é um palíndromo.
-* Introdução ao conceito de palíndromos e sua aplicação em problemas de programação.
+Verifique se uma palavra é um **palíndromo**: ou seja, se ela é igual à sua versão invertida.
+
+### 💬 Prompt no ChatGPT
+
+![Prompt do ChatGPT](imagens/prompt-entrada5.png)
+
+### 🧠 Código Gerado
+
+![Código Gerado pelo GPT](imagens/prompt-saida5.png)
+
+### 🖥️ Terminal com Código Funcionando
+
+![Terminal Executando Código](imagens/resultado5.png)
+
+### 📚 O que aprenderemos?
+
+* Manipulação de strings com slicing (`[::-1]`)
+* Normalização de texto (`lower()` e `replace()`)
+* Comparação lógica
+* Aplicação prática do conceito de palíndromo
+
+---
+
+## 📁 Estrutura de Pastas 
+```
+
+├── codigos/
+│   ├── desafio1_concatenar.py
+│   ├── desafio2_repetir.py
+│   ├── desafio3_operacoes.py
+│   ├── desafio4_par_ou_impar.py
+│   ├── desafio5_media.py
+│   └── desafio6_palindromo.py
+├── imagens/
+│   ├── prompt-entrada.png
+│   ├── prompt-saida.png
+│   ├── resultado.png
+│   ├── prompt-entrada1.png
+│   └── ...
+├── README.md
+
+```
